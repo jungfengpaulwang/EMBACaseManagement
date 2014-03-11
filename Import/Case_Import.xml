@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="format.xsl" ?>
+<ValidateRule Name="個案基本資料">
+    <DuplicateDetection>
+        <Detector Name="個案英文名稱">
+            <Field Name="個案英文名稱" />
+        </Detector>
+    </DuplicateDetection>
+    <FieldList>
+        <!--個案英文名稱  個案中文名稱  個案編號    作者  出版學校    備註  文件名稱:1  文件名稱:2  文件名稱:3  文件名稱:4  文件名稱:5-->
+        <Field Required="False" Name="個案中文名稱" Description="個案中文名稱" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="個案編號" Description="個案編號" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="作者" Description="作者" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="出版學校" Description="出版學校" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="備註" Description="備註" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="文件名稱:1" Description="文件名稱:1" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="文件名稱:2" Description="文件名稱:2" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="文件名稱:3" Description="文件名稱:3" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="文件名稱:4" Description="文件名稱:4" EmptyAlsoValidate="False" />
+        <Field Required="False" Name="文件名稱:5" Description="文件名稱:5" EmptyAlsoValidate="False" />
+    </FieldList>
+    <ValidatorList/>
+    <ConditionList/>
+</ValidateRule>

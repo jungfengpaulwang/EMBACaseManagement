@@ -1,0 +1,15 @@
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.csprojResolveAssemblyReference.cache
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.DetailItems.Teacher_CaseHistories.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.DetailItems.Course_Case_Usage.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Export.CSAttend.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmQueryTeacherCase.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmOAuth_Management.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmCase.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmCase_SingleForm.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmGoogleDriveListFilesInAssignedFolder.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.Properties.Resources.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.csproj.GenerateResource.Cache
+E:\TFServer2013\ischoolteam\ischool_EMBA\FiscaRuntime\addmodules\CaseManagement\CaseManagement.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\FiscaRuntime\addmodules\CaseManagement\CaseManagement.pdb
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.pdb

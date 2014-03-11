@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF26BA32-1CE0-475E-A68C-3B0B2405FC35}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CaseManagement</RootNamespace>
+    <AssemblyName>CaseManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\FiscaRuntime\addmodules\CaseManagement\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\FiscaRuntime\modules\LIB_ASPOSE\Aspose.Cells.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Campus">
+      <HintPath>..\FiscaRuntime\modules\LIB_Campus\Campus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Campus.Windows">
+      <HintPath>..\FiscaRuntime\modules\LIB_Campus\Campus.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=9.5.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FiscaRuntime\components\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth, Version=4.0.0.11165, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\DotNetOpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="EMBA.Export">
+      <HintPath>..\FiscaRuntime\addmodules\Export\EMBA.Export.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA">
+      <HintPath>..\FiscaRuntime\kernel\FISCA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Authentication">
+      <HintPath>..\FiscaRuntime\kernel\FISCA.Authentication.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Data">
+      <HintPath>..\FiscaRuntime\kernel\FISCA.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.DSAUtil">
+      <HintPath>..\FiscaRuntime\kernel\FISCA.DSAUtil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Permission">
+      <HintPath>..\FiscaRuntime\kernel\FISCA.Permission.dll</HintPath>
+    </Reference>
+    <Reference Include="FISCA.Presentation">
+      <HintPath>..\..\FiscaRuntime\kernel\FISCA.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.UDT">
+      <HintPath>..\FiscaRuntime\kernel\FISCA.UDT.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.2.4673.34585, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\Google.Apis.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Authentication.OAuth2, Version=1.2.4673.34580, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\Google.Apis.Authentication.OAuth2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Drive.v2, Version=1.2.4673.34556, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\Google.Apis.Drive.v2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Oauth2.v2, Version=1.2.4673.34556, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\Google.Apis.Oauth2.v2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Data">
+      <HintPath>..\FiscaRuntime\modules\LIB_K12DAL\K12.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Presentation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FiscaRuntime\modules\LIB_Campus\K12.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net35, Version=4.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Google API\Newtonsoft.Json.Net35.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportHelper, Version=2012.10.25.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FiscaRuntime\addmodules\MOD_EMBACore\ReportHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataItems\CloudFileUrlItem.cs" />
+    <Compile Include="DataItems\SemesterItem.cs" />
+    <Compile Include="DetailItems\Teacher_CaseHistories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DetailItems\Teacher_CaseHistories.Designer.cs">
+      <DependentUpon>Teacher_CaseHistories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailItems\Course_Case_Usage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DetailItems\Course_Case_Usage.Designer.cs">
+      <DependentUpon>Course_Case_Usage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Export\CaseExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Export\CaseExport.Designer.cs">
+      <DependentUpon>CaseExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmQueryTeacherCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmQueryTeacherCase.Designer.cs">
+      <DependentUpon>frmQueryTeacherCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOAuth_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOAuth_Management.Designer.cs">
+      <DependentUpon>frmOAuth_Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCase.Designer.cs">
+      <DependentUpon>frmCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCase_SingleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCase_SingleForm.Designer.cs">
+      <DependentUpon>frmCase_SingleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGoogleDriveListFilesInAssignedFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGoogleDriveListFilesInAssignedFolder.Designer.cs">
+      <DependentUpon>frmGoogleDriveListFilesInAssignedFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs" />
+    <Compile Include="Import\Case_Import.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UDT\Case.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UDT\CaseUsage.cs" />
+    <Compile Include="UDT\FieldAttribute.cs" />
+    <Compile Include="UDT\oAuthAccount.cs" />
+    <Compile Include="UDT\Reply.cs" />
+    <Compile Include="UDT\Subject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Google API\DotNetOpenAuth.LICENSE" />
+    <None Include="Google API\log4net.LICENSE" />
+    <None Include="Google API\Newtonsof.Json.LICENSE" />
+    <None Include="Resources\addtotemp.image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DetailItems\Teacher_CaseHistories.resx">
+      <DependentUpon>Teacher_CaseHistories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailItems\Course_Case_Usage.resx">
+      <DependentUpon>Course_Case_Usage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Export\CaseExport.resx">
+      <DependentUpon>CaseExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmQueryTeacherCase.resx">
+      <DependentUpon>frmQueryTeacherCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOAuth_Management.resx">
+      <DependentUpon>frmOAuth_Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCase.resx">
+      <DependentUpon>frmCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCase_SingleForm.resx">
+      <DependentUpon>frmCase_SingleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGoogleDriveListFilesInAssignedFolder.resx">
+      <DependentUpon>frmGoogleDriveListFilesInAssignedFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsearch.image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonitem1.image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonitem4.image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expandablebuttonimagecollapse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expandablebuttonimageexpand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_lock_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeformtemp.image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandglass_unlock_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMBA.DocumentValidator\EMBA.DocumentValidator.csproj">
+      <Project>{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}</Project>
+      <Name>EMBA.DocumentValidator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMBA.Import\EMBA.Import.csproj">
+      <Project>{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}</Project>
+      <Name>EMBA.Import</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EMBA.Validator\EMBA.Validator.csproj">
+      <Project>{FEA37838-0B12-483A-8091-4B1A9A2C9378}</Project>
+      <Name>EMBA.Validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleDrive\GoogleDrive.csproj">
+      <Project>{5C35222A-9930-40C5-BCFD-AC946F1810C6}</Project>
+      <Name>GoogleDrive</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Google API\DotNetOpenAuth.dll" />
+    <Content Include="Google API\Google.Apis.Authentication.OAuth2.dll" />
+    <Content Include="Google API\Google.Apis.Authentication.OAuth2.xml" />
+    <Content Include="Google API\Google.Apis.dll" />
+    <Content Include="Google API\Google.Apis.Drive.v2.dll" />
+    <Content Include="Google API\Google.Apis.Drive.v2.xml" />
+    <Content Include="Google API\Google.Apis.Oauth2.v2.dll" />
+    <Content Include="Google API\Google.Apis.Oauth2.v2.xml" />
+    <Content Include="Google API\Google.Apis.xml" />
+    <Content Include="Google API\log4net.dll" />
+    <Content Include="Google API\Newtonsoft.Json.Net35.dll" />
+    <Content Include="Google API\Newtonsoft.Json.Net35.xml" />
+    <Content Include="Import\Case_Import.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\format.xsl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
