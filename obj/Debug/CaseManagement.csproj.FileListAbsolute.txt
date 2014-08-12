@@ -13,16 +13,3 @@ E:\TFServer2013\ischoolteam\ischool_EMBA\FiscaRuntime\addmodules\CaseManagement\
 E:\TFServer2013\ischoolteam\ischool_EMBA\FiscaRuntime\addmodules\CaseManagement\CaseManagement.pdb
 E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.dll
 E:\TFServer2013\ischoolteam\ischool_EMBA\CaseManagement\obj\Debug\CaseManagement.pdb
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.csprojResolveAssemblyReference.cache
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.DetailItems.Teacher_CaseHistories.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.DetailItems.Course_Case_Usage.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Export.CSAttend.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmQueryTeacherCase.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmOAuth_Management.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmCase.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmCase_SingleForm.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Forms.frmGoogleDriveListFilesInAssignedFolder.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.Properties.Resources.resources
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.csproj.GenerateResource.Cache
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.dll
-E:\github\NTU_EMBA\CaseManagement\obj\Debug\CaseManagement.pdb

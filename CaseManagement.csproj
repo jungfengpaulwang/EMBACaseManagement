@@ -36,15 +36,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Aspose.Cells">
-      <HintPath>..\FiscaRuntime\modules\LIB_ASPOSE\Aspose.Cells.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\Aspose.Cells.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Campus">
-      <HintPath>..\FiscaRuntime\modules\LIB_Campus\Campus.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\Campus.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Campus.Windows">
-      <HintPath>..\FiscaRuntime\modules\LIB_Campus\Campus.Windows.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\Campus.Windows.dll</HintPath>
     </Reference>
     <Reference Include="DevComponents.DotNetBar2, Version=9.5.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -54,35 +54,31 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Google API\DotNetOpenAuth.dll</HintPath>
     </Reference>
-    <Reference Include="EMBA.Export">
-      <HintPath>..\FiscaRuntime\addmodules\Export\EMBA.Export.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="FISCA">
-      <HintPath>..\FiscaRuntime\kernel\FISCA.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.Authentication">
-      <HintPath>..\FiscaRuntime\kernel\FISCA.Authentication.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.Authentication.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.Data">
-      <HintPath>..\FiscaRuntime\kernel\FISCA.Data.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.DSAUtil">
-      <HintPath>..\FiscaRuntime\kernel\FISCA.DSAUtil.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.DSAUtil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.Permission">
-      <HintPath>..\FiscaRuntime\kernel\FISCA.Permission.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.Permission.dll</HintPath>
     </Reference>
     <Reference Include="FISCA.Presentation">
-      <HintPath>..\..\FiscaRuntime\kernel\FISCA.Presentation.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.Presentation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.UDT">
-      <HintPath>..\FiscaRuntime\kernel\FISCA.UDT.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\FISCA.UDT.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Google.Apis, Version=1.2.4673.34585, Culture=neutral, processorArchitecture=MSIL">
@@ -106,12 +102,12 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="K12.Data">
-      <HintPath>..\FiscaRuntime\modules\LIB_K12DAL\K12.Data.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\K12.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K12.Presentation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\FiscaRuntime\modules\LIB_Campus\K12.Presentation.dll</HintPath>
+      <HintPath>..\..\..\Dropbox\github\NTU_EMBA\CaseManagement\Library\K12.Presentation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
@@ -126,7 +122,7 @@
     </Reference>
     <Reference Include="ReportHelper, Version=2012.10.25.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\FiscaRuntime\addmodules\MOD_EMBACore\ReportHelper.dll</HintPath>
+      <HintPath>..\ReportHelper\bin\Debug\ReportHelper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -286,15 +282,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EMBA.DocumentValidator\EMBA.DocumentValidator.csproj">
-      <Project>{A108F18E-D035-45F3-B9D4-F1B612C0DAD9}</Project>
+      <Project>{a108f18e-d035-45f3-b9d4-f1b612c0dad9}</Project>
       <Name>EMBA.DocumentValidator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EMBA.Export\EMBA.Export.csproj">
+      <Project>{47631caa-4f81-4458-99a0-31b342803ecb}</Project>
+      <Name>EMBA.Export</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EMBA.Import\EMBA.Import.csproj">
-      <Project>{3BA76CDE-1BBD-46EA-ACF0-65B1D0344626}</Project>
+      <Project>{3ba76cde-1bbd-46ea-acf0-65b1d0344626}</Project>
       <Name>EMBA.Import</Name>
     </ProjectReference>
     <ProjectReference Include="..\EMBA.Validator\EMBA.Validator.csproj">
-      <Project>{FEA37838-0B12-483A-8091-4B1A9A2C9378}</Project>
+      <Project>{fea37838-0b12-483a-8091-4b1a9a2c9378}</Project>
       <Name>EMBA.Validator</Name>
     </ProjectReference>
     <ProjectReference Include="..\GoogleDrive\GoogleDrive.csproj">
